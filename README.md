@@ -25,12 +25,5 @@ gcc -o consumer consumer.c -pthread -lrt
 ./producer & ./consumer
 ```
 
-## Synchronization Mechanism
-- **Shared Memory:** Used for storing produced items.
-- **Semaphores:**
-  - `full`: Tracks the number of occupied buffer slots.
-  - `empty`: Tracks available buffer slots.
-  - `mutex`: Ensures mutual exclusion in critical sections.
-
 ## Expected Output
 The producer and consumer processes will print messages indicating item production and consumption, along with buffer positions.
