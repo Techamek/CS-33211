@@ -47,5 +47,3 @@ int main() {
 
     return EXIT_SUCCESS;
 }
-
-I adjusted the messages for better clarity and con
