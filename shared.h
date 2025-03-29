@@ -10,6 +10,8 @@
 #include <unistd.h>
 #include <time.h>
 
+static const int bufferSize = 2;
+
 struct table {
     int buffer[2];
     int in;
